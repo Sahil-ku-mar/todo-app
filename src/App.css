@@ -1,0 +1,38 @@
+.ExpenciveApp {
+  text-align: center;
+}
+
+.AppExpenciveApp{
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.ExpenciveApp {
+  background-color: #0ee1de;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(231, 6, 6);
+}
+
+.ExpenciveApp {
+  color: #f40606;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
